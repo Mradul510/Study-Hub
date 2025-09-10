@@ -9,7 +9,7 @@ mongoose.connect(`mongodb://localhost:5464/studyhub`)
 
 app.get(`/`, (req, res) => {
     res.send(`Welcome to the Study Hub!`);
-})
+});
 
 app.listen(port, () => {
     console.log(`Server is running on port http://localhost:${port}`);
