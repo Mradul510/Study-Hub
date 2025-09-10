@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 const mongoose = require('mongoose');
 
-mongoose.connect(`mongodb://localhost:27017/studyhub`)
+mongoose.connect(`mongodb://localhost:5464/studyhub`)
 .then(() => console.log(`Successfully connected to MongoDB...`))
 .catch(err => console.error(`Connection error:`, err));
 
